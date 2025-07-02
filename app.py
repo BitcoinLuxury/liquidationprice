@@ -3,7 +3,7 @@ import streamlit as st
 # Pares de divisas disponibles
 PARES = [
     'AUD/CAD', 'AUD/CHF', 'AUD/JPY', 'AUD/NZD', 'AUD/USD',
-    'CAD/CHF', 'CHF/JPY',
+    'CAD/CHF', 'CHF/JPY', 'CADJPY',   'EURNZD',  'GBPNZD',   'NZDCAD',
     'EUR/AUD', 'EUR/CAD', 'EUR/CHF', 'EUR/GBP', 'EUR/JPY', 'EUR/USD',
     'GBP/AUD', 'GBP/CAD', 'GBP/CHF', 'GBP/JPY', 'GBP/USD',
     'NZD/CHF', 'NZD/JPY', 'NZD/USD',
