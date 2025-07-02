@@ -2,9 +2,12 @@ import streamlit as st
 
 # Pares de divisas disponibles
 PARES = [
-    'EUR/USD', 'GBP/USD', 'USD/JPY', 'USD/CHF',
-    'AUD/USD', 'NZD/USD', 'EUR/GBP', 'EUR/JPY',
-    'GBP/JPY', 'USD/CAD', 'CAD/JPY'
+    'AUD/CAD', 'AUD/CHF', 'AUD/JPY', 'AUD/NZD', 'AUD/USD',
+    'CAD/CHF', 'CHF/JPY',
+    'EUR/AUD', 'EUR/CAD', 'EUR/CHF', 'EUR/GBP', 'EUR/JPY', 'EUR/USD',
+    'GBP/AUD', 'GBP/CAD', 'GBP/CHF', 'GBP/JPY', 'GBP/USD',
+    'NZD/CHF', 'NZD/JPY', 'NZD/USD',
+    'USD/CAD', 'USD/CHF', 'USD/JPY'
 ]
 
 def calcular_dca(balance, precio_inicial, precio_final, tipo, par):
